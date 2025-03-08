@@ -1,0 +1,36 @@
+tokens:
+  - addressOrDenom: "0x132Dd3634dBC4Ae56ac482311d3002eeE973419b"
+    chainName: silk
+    connections:
+      - token: ethereum|tan|0xFa34D46BB76D50758088Abb8D81041502E58bDF3
+    decimals: 18
+    name: SILK
+    standard: EvmHypNative
+    symbol: SLK
+
+  - addressOrDenom: "0xFa34D46BB76D50758088Abb8D81041502E58bDF3"
+    chainName: tan
+    connections:
+      - token: ethereum|silk|0x132Dd3634dBC4Ae56ac482311d3002eeE973419b
+    decimals: 18
+    name: SILK
+    standard: EvmHypSynthetic
+    symbol: SLK
+
+  - addressOrDenom: "0x2282351a177e5db0d723123837203726279d410B"
+    chainName: bsctestnet
+    connections:
+      - token: ethereum|silk|0x6795a49920ebFED18546Dc197AEeFbB95cF0caF7
+    decimals: 18
+    name: SILK
+    standard: EvmHypSynthetic
+    symbol: SLK
+
+  - addressOrDenom: "0x6795a49920ebFED18546Dc197AEeFbB95cF0caF7"
+    chainName: silk
+    connections:
+      - token: ethereum|bsctestnet|0x2282351a177e5db0d723123837203726279d410B
+    decimals: 18
+    name: SILK
+    standard: EvmHypNative
+    symbol: SLK

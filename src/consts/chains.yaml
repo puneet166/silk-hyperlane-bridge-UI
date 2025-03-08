@@ -1,0 +1,70 @@
+{
+  "silk": {
+    "blockExplorers": [
+      {
+        "apiUrl": "https://brixbit.mobi/",
+        "family": "blockscout",
+        "name": "silkexplorer",
+        "url": "https://brixbit.mobi/"
+      }
+    ],
+    "chainId": 9000,
+    "displayName": "silk",
+    "domainId": 9000,
+    "isTestnet": true,
+    "name": "silk",
+    "blocks": {
+      "confirmations": 2,
+      "reorgPeriod": 2,
+      "estimateBlockTime": 1
+    },
+    "nativeToken": {
+      "decimals": 18,
+      "name": "SILK",
+      "symbol": "SLK"
+    },
+    "protocol": "ethereum",
+    "rpcUrls": [
+      {
+        "http": "https://brixbit.xyz/"
+      }
+    ],
+    "technicalStack": "other",
+    "logoURI": "https://brixbit.mobi/static/black_logo.gif",
+
+  },
+  "tan": {
+    "blockExplorers": [
+      {
+        "apiUrl": "https://tanscan.com/",
+        "family": "blockscout",
+        "name": "tanscan",
+        "url": "https://tanscan.com/"
+      }
+    ],
+    "chainId": 4442,
+    "displayName": "tan",
+    "domainId": 4442,
+    "isTestnet": true,
+    "name": "tan",
+    "nativeToken": {
+      "decimals": 18,
+      "name": "Tan",
+      "symbol": "TAN"
+    },
+    "protocol": "ethereum",
+    "rpcUrls": [
+      {
+        "http": "https://devnet-rpc1.tanledger.com/"
+      }
+    ],
+    "blocks": {
+      "confirmations": 2,
+      "reorgPeriod": 2,
+      "estimateBlockTime": 5
+    },
+    "technicalStack": "other",
+    "logoURI": "https://buy.tan.live/assets/logo/logo.svg",
+
+  }
+}
